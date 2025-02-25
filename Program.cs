@@ -6,6 +6,11 @@
     var startNumber = Console.ReadLine();
     Console.Write("Enter the ending number: ");
     var endNumber = Console.ReadLine();
+    if (!int.TryParse(startNumber, out var sNumber) ||
+        !int.TryParse(endNumber, out var eNumber))
+        throw new FormatException("Invalid inputs!");
+    if (sNumber > eNumber || sNumber <= 0 || eNumber <= 0) 
+        throw new FormatException("Invalid numbers!");
 }
 catch (FormatException e)
 {
