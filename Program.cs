@@ -14,6 +14,8 @@
     for (var index = sNumber; index <= eNumber; index++)
     {
         Console.WriteLine($"\nMultiplication Table for {index}:");
+        for (var n = 1; n <= 10; n++)
+            Console.WriteLine($"{index} x {n} = {index * n}");
     }
 }
 catch (FormatException e)
