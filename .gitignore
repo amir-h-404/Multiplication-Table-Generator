@@ -1,0 +1,28 @@
+# فایل‌های باینری و ساخت
+bin/
+obj/
+*.suo
+*.user
+
+# فایل‌های NuGet
+packages/
+*.nupkg
+
+# فایل‌های تست و پوشش کد
+TestResults/
+*.trx
+*.coverage
+
+# فایل‌های محیط توسعه
+.vscode/
+.idea/
+*.sln.docstates
+
+# فایل‌های لاگ و دیتابیس
+*.log
+*.sqlite
+*.db
+
+# فایل‌های حساس و تنظیمات محلی
+appsettings.json
+secrets.json
