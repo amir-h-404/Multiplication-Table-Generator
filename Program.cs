@@ -11,6 +11,10 @@
         throw new FormatException("Invalid inputs!");
     if (sNumber > eNumber || sNumber <= 0 || eNumber <= 0) 
         throw new FormatException("Invalid numbers!");
+    for (var index = sNumber; index <= eNumber; index++)
+    {
+        Console.WriteLine($"\nMultiplication Table for {index}:");
+    }
 }
 catch (FormatException e)
 {
